@@ -6,10 +6,10 @@ theme = "ananke"
 
 [menu]
   [[menu.main]]
-	identifier = "contacto"
-	name = "Contacto"
-	title = "Contacto"
-	url = "/contacto/"
+	identifier = "my-first-post"
+	name = "my-first-post"
+	title = "my-first-post"
+	url = "/my-first-post/"
 	weight = 0
   [[menu.main]]
 	identifier = "posts"
