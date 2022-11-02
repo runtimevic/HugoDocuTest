@@ -8,3 +8,4 @@ Este es el contacto con los administradores del sitio web.
 - Email
 - Teléfono
 - Twitter
+- casa
