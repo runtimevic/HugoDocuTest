@@ -10,7 +10,7 @@ theme = "ananke"
     weight = 1
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
-  [languages.fr]
+  [languages.es]
     title = "Ananke es"
     weight = 2
     contentDir = "content/es"
