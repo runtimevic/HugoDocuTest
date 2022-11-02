@@ -29,7 +29,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.TOKEN }}
-          external_repository: runtimevic/runtimevic.github.io
+          #external_repository: runtimevic/runtimevic.github.io
           publish_dir: ./public
           #   keep_files: true
           user_name: runtimevic
