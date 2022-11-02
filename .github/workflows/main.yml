@@ -13,12 +13,12 @@ jobs:
         #with:
           #submodules: true  # Fetch Hugo themes (true OR recursive)
 
-      - name: git rm themes/hello-friend-ng
-        run: git rm themes/ananke
+      #- name: git rm themes/hello-friend-ng
+        #run: git rm themes/ananke
 
-      - name: git add theme ananke
-        run: git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-        
+      #- name: git add theme ananke
+        #run: git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+
       - name: Update theme
         # (Optional)If you have the theme added as submodule, you can pull it and use the most updated version
         run: git submodule update --init --recursive
