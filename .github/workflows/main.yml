@@ -28,11 +28,12 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.TOKEN }}
+          #personal_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
           #external_repository: runtimevic/runtimevic.github.io
           publish_dir: ./public
           #   keep_files: true
           #user_name: runtimevic
           #user_email: victorduranm@hotmail.com
-          publish_branch: master
+          publish_branch: master  # default: gh-pages
         #   cname: example.com
