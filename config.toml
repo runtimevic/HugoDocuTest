@@ -14,6 +14,6 @@ theme = "ananke"
   [[menu.main]]
 	identifier = "posts"
 	name = "Posts1"
-	title = "Posts"
+	title = "Posts12"
 	url = "/posts/"
 	weight = 0
