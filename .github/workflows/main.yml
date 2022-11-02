@@ -32,7 +32,7 @@ jobs:
           #external_repository: runtimevic/runtimevic.github.io
           publish_dir: ./public
           #   keep_files: true
-          user_name: runtimevic
-          user_email: victorduranm@hotmail.com
+          #user_name: runtimevic
+          #user_email: victorduranm@hotmail.com
           publish_branch: master
         #   cname: example.com
