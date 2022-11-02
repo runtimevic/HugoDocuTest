@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+
+theme = "ananke"
+
+[menu]
+  [[menu.main]]
+	identifier = "my-first-post"
+	name = "my-first-post"
+	title = "my-first-post"
+	url = "/my-first-post/"
+	weight = 0
+  [[menu.main]]
+	identifier = "posts"
+	name = "Posts"
+	title = "Posts"
+	url = "/posts/"
+	weight = 0
