@@ -4,3 +4,13 @@ title = 'My New Hugo Site'
 
 theme = "ananke"
 
+[languages]
+  [languages.en]
+    title = "Ananke"
+    weight = 1
+    contentDir = "content/en"
+    # languageDirection = 'rtl' for Right-To-Left languages
+  [languages.fr]
+    title = "Ananke es"
+    weight = 2
+    contentDir = "content/es"
