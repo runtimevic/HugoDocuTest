@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile /https://github.com/runtimevic/HugoDocuTest/tree/gh-pages/.htpasswd
+Require valid-user
